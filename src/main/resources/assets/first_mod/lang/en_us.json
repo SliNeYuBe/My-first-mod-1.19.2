@@ -11,5 +11,8 @@
   "block.first_mod.jumpy_block": "Jumpy Block",
 
   "itemGroup.modtab_1": "Zircon Tutorial Tab 1",
-  "itemGroup.modtab_2": "Zircon Tutorial Tab 2"
+  "itemGroup.modtab_2": "Zircon Tutorial Tab 2",
+
+  "tooltip.first_mod.random_number": "Right click to get a random number!",
+  "tooltip.first_mod.press_shift": "Press SHIFT for more info"
 }
