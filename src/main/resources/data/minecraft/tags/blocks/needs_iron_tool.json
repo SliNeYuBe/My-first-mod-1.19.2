@@ -3,6 +3,7 @@
   "values": [
     "first_mod:zircon_ore",
     "first_mod:zircon_block",
-    "first_mod:deepslate_zircon_ore"
+    "first_mod:deepslate_zircon_ore",
+    "first_mod:jumpy_block"
   ]
 }

@@ -13,6 +13,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.slineyube.firstmod.TutorialMod;
+import net.slineyube.firstmod.block.custom.JumpyBlock;
 import net.slineyube.firstmod.item.ModCreativeModeTab;
 import net.slineyube.firstmod.item.ModItems;
 
@@ -45,6 +46,11 @@ public class ModBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops(),
                     UniformInt.of(100,200)), ModCreativeModeTab.MOD_TAB_1);
+
+    public static final RegistryObject<Block> JUMPY_BLOCK = registerBlock("jumpy_block",
+            () -> new JumpyBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops(),
+                    UniformInt.of(100000,200000)), ModCreativeModeTab.MOD_TAB_1);
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(final String name, final Supplier<T> block, CreativeModeTab tab) {
